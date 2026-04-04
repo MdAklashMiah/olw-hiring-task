@@ -17,7 +17,7 @@ const Header = () => {
   ];
   const getPath = (link) => (link === "Home" ? "/" : `/${link.toLowerCase()}`);
   return (
-    <header>
+    <header className="shadow-[0px_4px_62px_rgba(250,196,210,0.63)]"> 
       <Container>
         <div className="flex justify-between items-center py-5">
           <Link href="/">
