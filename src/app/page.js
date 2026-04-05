@@ -1,5 +1,6 @@
 import Header from '@/components/common/Header'
 import Banner from '@/components/home/Banner'
+import GetStart from '@/components/home/GetStart'
 import PricingSection from '@/components/home/Pricing'
 import Services from '@/components/home/Services'
 import Tools from '@/components/home/Tools'
@@ -15,6 +16,7 @@ const page = () => {
       <Services/>
       <PricingSection/>
       <Tools/>
+      <GetStart/>
     </div>
   )
 }
