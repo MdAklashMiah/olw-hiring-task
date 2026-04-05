@@ -62,7 +62,7 @@ export default function PricingSection() {
   ];
 
   return (
-    <section className="py-24">
+    <section className="pt-[74px]">
         <Container>
 
       <div className=" mx-auto px-6 text-center">
@@ -108,7 +108,7 @@ export default function PricingSection() {
           {plans.map((plan, idx) => (
             <div
               key={idx}
-              className={`border border-[#FAC4D2] rounded-2xl px-6 py-10 text-left transition-all duration-300 group hover:bg-[#ED3C6A]`}
+              className={`border border-[#FAC4D2] rounded-2xl px-6 py-10 text-left transition-all duration-300 group hover:bg-[#ED3C6A] `}
             >
               <h3 className="text-[22px] font-bold text-[#191D23] group-hover:text-white">
                 {plan.name}
